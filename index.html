@@ -39,13 +39,15 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm-6">
-                    <div class="col-12 col-sm-6 align-self-center">
+                    <div class="col-12 col-sm-3 align-self-center">
                         <img src="img/logo.png" class="img-fluid">
+                    </div>
+                    <div class="col-sm-3 align-self-center">
+                        <a role="button" class="btn btn-warning btn-block" href="#book">Reserve Table</a>
                     </div>
                 </div>
             </div>
-        </div>
+         
     </header>
     <div class="container">
         <div class="row row-content align-items-center">
@@ -70,11 +72,13 @@
             </div>
             <div class="col col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="uthappizza">
+                    
                     <div class="media-body">
-                <h2>Weekend Grand Buffet <span class="badge badge-success mr-1"> Discount 10% </span><span class="badge bagde-pill badge-secondary">$19.99</span></h2>
+                <h2>Weekend Grand Buffet <span class="badge badge-danger mr-1">NEW</span></h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                
                 </div>
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="uthappizza">
                 </div>
             </div>
         </div>
@@ -94,7 +98,57 @@
             </div>
         </div>
     </div>
-
+  
+    <div class="col-sm-8 mx-auto mt-5 mb-5">
+        <div class="card" id="book">
+            <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-row mb-3">
+                            <label for="no_of_guest" class="col-sm-2">Number of Guests</label>
+                            <div class="form-check form-check-inline mr-3 col-ml-12">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option1">
+                                <label class="form-check-label" for="no_of_guest">1</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option2">
+                                <label class="form-check-label" for="no_of_guest">2</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option3">
+                                <label class="form-check-label" for="no_of_guest ">3</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option3">
+                                <label class="form-check-label" for="no_of_guest ">4</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option3">
+                                <label class="form-check-label" for="no_of_guest ">5</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no_of_guest" value="option3">
+                                <label class="form-check-label" for="no_of_guest ">6</label>
+                              </div>
+                        </div>
+                        <div class="form-row mt-4">
+                        <label for="d_n_t" class="col-sm-2">Date and Time</label>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <input type="date" class="form-control" id="date" placeholder="Date">
+                            </div>
+                            <div class="form-group col-md-6">                              
+                              <input type="time" class="form-control" id="time" placeholder="Time">
+                            </div>
+                            <div class="ml-1 mt-3">
+                                <a role="button" class="btn btn-primary" >Reserve</a>
+                            </div>
+                          </div>
+                        </div>                        
+                    </form>
+                </div>    
+        </div>
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">             
